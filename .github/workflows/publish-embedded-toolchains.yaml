@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - "images/embedded-toolchain/**"
-      - ".github/workflows/publish-latest-embedded-toolchains.yaml"
+      - ".github/workflows/publish-embedded-toolchains.yaml"
 
 jobs:
   build_and_publish:
