@@ -2,7 +2,7 @@
 
 variable "REGISTRY" {
   description = "The Docker registry to push to."
-  default     = "ghcr.io/JoeCalvert"
+  default     = "ghcr.io/joecalvert"
 }
 
 variable "REPO" {
