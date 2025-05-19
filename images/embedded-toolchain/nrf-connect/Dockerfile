@@ -77,5 +77,7 @@ ENV ZEPHYR_PATH="/opt/ncs/nrf/${NRF_CONNECT_SDK_VERSION}/zephyr"
 ENV NRF_PYTHON_VENV_PATH="/opt/ncs/.venv"
 ENV NRF_CONNECT_SDK_PATH="/opt/ncs/nrf/${NRF_CONNECT_SDK_VERSION}"
 
+RUN chmod +x /opt/ncs/.venv/bin/activate
+
 ENTRYPOINT [ "/opt/ncs/.venv/bin/activate" ]
 CMD ["/bin/bash"]
